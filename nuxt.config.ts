@@ -1,10 +1,8 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
 
   build: {
-    transpile: ['vuetify'],
+    transpile: ["vuetify"],
   },
-
-  modules: ['@nuxt/eslint'],
-})
+});
